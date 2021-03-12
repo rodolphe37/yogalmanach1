@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
   },
 
   image: {
-    width: "100%",
+    width: Dimensions.get("window").width,
     height: "100%",
     resizeMode: "cover",
     position: "absolute",
